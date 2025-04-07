@@ -12,6 +12,31 @@ Em mar aberto, vá até o convés.
     http://localhost:80
 
 
+ <p>Baixe o arquivo com o código fonte</p>
+
+  <p>Abra o prompt de comando e inicie o Subsistema Linux</p>
+  <pre>wsl -d Ubuntu-24.04</pre>
+
+  <p>Encontre o diretório da pasta</p>
+  <pre>cd caminho-do-projeto</pre>
+
+  <p>Abra o Software DockerDesktop</p>
+
+  <p>Dentro da pasta e comece a içar as velas!</p>
+  <pre>
+./vendor/bin/sail up -d
+(use o parâmetro -d para continuar utilizando o terminal)
+  </pre>
+
+  <p>
+    Com as velas içadas verifique os suprimentos (banco de dados) e puxe a âncora, 
+    a partir de agora você vai estar sozinho no mar.
+  </p>
+
+  <pre>./vendor/bin/sail artisan migrate</pre>
+
+  <p>Em mar aberto, vá até o convés.</p>
+  <pre><a href="http://localhost" style="color: #00afff;">http://localhost:80</a></pre>
 
 
 
