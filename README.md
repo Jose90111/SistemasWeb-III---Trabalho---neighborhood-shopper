@@ -1,16 +1,3 @@
-Baixe o arquivo com o codigo fonte
-Abra o prompt de comando e Inicie o Subsistema Linux
-    wsl -d Ubuntu-24.04
-Encontre o diretorio da pasta 
-    cd caminho-do-projeto
-Abra o Software DockerDesktop
-Dentro da pasta e comece a içar as velas!
-    ./vendor/bin/sail up -d (use o parametro -d para continuar utilizando o terminal)
-Com as velas içadas verifique os suprimentos (banco de dados) e puxe a ancora, a partir de agora você vai estar sozinho no mar.
-    ./vendro/bin/sail art migrate
-Em mar aberto, vá até o convés.
-    http://localhost:80
-
 
  <p>Baixe o arquivo com o código fonte</p>
 
